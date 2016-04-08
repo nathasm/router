@@ -1,0 +1,4338 @@
+[
+  {
+    "__docId__": 0,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/component-renderer.js",
+    "memberof": null,
+    "longname": "es6/component-renderer.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 1,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__decorate",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~__decorate",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 2,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__metadata",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~__metadata",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 3,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__param",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~__param",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 4,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "PRE_RENDER_MIDDLEWARE",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~PRE_RENDER_MIDDLEWARE",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": "{PRE_RENDER_MIDDLEWARE}",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "angular2/core~OpaqueToken"
+      ]
+    }
+  },
+  {
+    "__docId__": 5,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "POST_RENDER_MIDDLEWARE",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~POST_RENDER_MIDDLEWARE",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": "{POST_RENDER_MIDDLEWARE}",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "angular2/core~OpaqueToken"
+      ]
+    }
+  },
+  {
+    "__docId__": 6,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "usePreRenderMiddleware",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~usePreRenderMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": "{usePreRenderMiddleware}",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 7,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "usePostRenderMiddleware",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~usePostRenderMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": "{usePostRenderMiddleware}",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 8,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "ComponentRenderer",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~ComponentRenderer",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": "{ComponentRenderer}",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 9,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "es6/component-renderer.js~ComponentRenderer",
+    "longname": "es6/component-renderer.js~ComponentRenderer#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [
+      {
+        "name": "_loader",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_preMiddleware",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_postMiddleware",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 10,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_loader",
+    "memberof": "es6/component-renderer.js~ComponentRenderer",
+    "longname": "es6/component-renderer.js~ComponentRenderer#_loader",
+    "access": null,
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 11,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_preMiddleware",
+    "memberof": "es6/component-renderer.js~ComponentRenderer",
+    "longname": "es6/component-renderer.js~ComponentRenderer#_preMiddleware",
+    "access": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 12,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_postMiddleware",
+    "memberof": "es6/component-renderer.js~ComponentRenderer",
+    "longname": "es6/component-renderer.js~ComponentRenderer#_postMiddleware",
+    "access": null,
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 13,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "render",
+    "memberof": "es6/component-renderer.js~ComponentRenderer",
+    "longname": "es6/component-renderer.js~ComponentRenderer#render",
+    "access": null,
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "params": [
+      {
+        "name": "route",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "components",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "injector",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "ref",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "dcl",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "providers",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 14,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "renderComponent",
+    "memberof": "es6/component-renderer.js~ComponentRenderer",
+    "longname": "es6/component-renderer.js~ComponentRenderer#renderComponent",
+    "access": null,
+    "description": null,
+    "lineNumber": 47,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"component\": *, \"providers\": *, \"ref\": *, \"dcl\": *}"
+        ],
+        "defaultRaw": {
+          "component": null,
+          "providers": null,
+          "ref": null,
+          "dcl": null
+        },
+        "defaultValue": "{\"component\":null,\"providers\":null,\"ref\":null,\"dcl\":null}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 15,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_loadComponent",
+    "memberof": "es6/component-renderer.js~ComponentRenderer",
+    "longname": "es6/component-renderer.js~ComponentRenderer#_loadComponent",
+    "access": null,
+    "description": null,
+    "lineNumber": 50,
+    "undocument": true,
+    "params": [
+      {
+        "name": "route",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 16,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "COMPONENT_RENDERER_PROVIDERS",
+    "memberof": "es6/component-renderer.js",
+    "longname": "es6/component-renderer.js~COMPONENT_RENDERER_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/component-renderer.js",
+    "importStyle": "{COMPONENT_RENDERER_PROVIDERS}",
+    "description": null,
+    "lineNumber": 60,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 17,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/guard.js",
+    "memberof": null,
+    "longname": "es6/guard.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 18,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "createGuard",
+    "memberof": "es6/guard.js",
+    "longname": "es6/guard.js~createGuard",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/guard.js",
+    "importStyle": "{createGuard}",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 19,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "guardMiddleware",
+    "memberof": "es6/guard.js",
+    "longname": "es6/guard.js~guardMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/guard.js",
+    "importStyle": "{guardMiddleware}",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 20,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "GUARD_PROVIDERS",
+    "memberof": "es6/guard.js",
+    "longname": "es6/guard.js~GUARD_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/guard.js",
+    "importStyle": "{GUARD_PROVIDERS}",
+    "description": null,
+    "lineNumber": 33,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 21,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/index.js",
+    "memberof": null,
+    "longname": "es6/index.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 22,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "provideRouter",
+    "memberof": "es6/index.js",
+    "longname": "es6/index.js~provideRouter",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/index.js",
+    "importStyle": "{provideRouter}",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "params": [
+      {
+        "name": "routes",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 23,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/link-active.js",
+    "memberof": null,
+    "longname": "es6/link-active.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 24,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__decorate",
+    "memberof": "es6/link-active.js",
+    "longname": "es6/link-active.js~__decorate",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/link-active.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 25,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__metadata",
+    "memberof": "es6/link-active.js",
+    "longname": "es6/link-active.js~__metadata",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/link-active.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 26,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__param",
+    "memberof": "es6/link-active.js",
+    "longname": "es6/link-active.js~__param",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/link-active.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 27,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "LinkActive",
+    "memberof": "es6/link-active.js",
+    "longname": "es6/link-active.js~LinkActive",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/link-active.js",
+    "importStyle": "{LinkActive}",
+    "description": "The LinkActive directive toggles classes on elements that contain an active linkTo directive\n\n<a linkActive=\"active\" linkTo=\"/home/page\">Home Page</a>\n<ol>\n <li linkActive=\"active\" *ngFor=\"var link of links\">\n   <a [linkTo]=\"'/link/' + link.id\">{{ link.title }}</a>\n </li>\n</ol>",
+    "lineNumber": 26,
+    "interface": false
+  },
+  {
+    "__docId__": 28,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [
+      {
+        "name": "links",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "element",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "location$",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "renderer",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 29,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "links",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#links",
+    "access": null,
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 30,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "element",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#element",
+    "access": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 31,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "location$",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#location$",
+    "access": null,
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 32,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "renderer",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#renderer",
+    "access": null,
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 33,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "activeOptions",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#activeOptions",
+    "access": null,
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 34,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "ngAfterViewInit",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#ngAfterViewInit",
+    "access": null,
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 35,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_sub",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#_sub",
+    "access": null,
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 36,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "checkActive",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#checkActive",
+    "access": null,
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "params": [
+      {
+        "name": "path",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 37,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "ngOnDestroy",
+    "memberof": "es6/link-active.js~LinkActive",
+    "longname": "es6/link-active.js~LinkActive#ngOnDestroy",
+    "access": null,
+    "description": null,
+    "lineNumber": 56,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 38,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "LINK_ACTIVE_PROVIDERS",
+    "memberof": "es6/link-active.js",
+    "longname": "es6/link-active.js~LINK_ACTIVE_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/link-active.js",
+    "importStyle": "{LINK_ACTIVE_PROVIDERS}",
+    "description": null,
+    "lineNumber": 75,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 39,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/link-to.js",
+    "memberof": null,
+    "longname": "es6/link-to.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 40,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__decorate",
+    "memberof": "es6/link-to.js",
+    "longname": "es6/link-to.js~__decorate",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/link-to.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 41,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__metadata",
+    "memberof": "es6/link-to.js",
+    "longname": "es6/link-to.js~__metadata",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/link-to.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 42,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "LinkTo",
+    "memberof": "es6/link-to.js",
+    "longname": "es6/link-to.js~LinkTo",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/link-to.js",
+    "importStyle": "{LinkTo}",
+    "description": "The LinkTo directive links to routes in your app\n\nLinks are pushed to the `Location` service to trigger a route change.\nQuery params can be represented as an object or a string of names/values\n\n<a linkTo=\"/home/page\" [queryParams]=\"{ id: 123 }\">Home Page</a>\n<a [linkTo]=\"'/pages' + page.id\">Page 1</a>",
+    "lineNumber": 21,
+    "interface": false
+  },
+  {
+    "__docId__": 43,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [
+      {
+        "name": "_location",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 44,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_location",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#_location",
+    "access": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 45,
+    "kind": "set",
+    "static": false,
+    "variation": null,
+    "name": "linkTo",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#linkTo",
+    "access": null,
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 46,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_href",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#_href",
+    "access": null,
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 47,
+    "kind": "set",
+    "static": false,
+    "variation": null,
+    "name": "queryParams",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#queryParams",
+    "access": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 48,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_query",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#_query",
+    "access": null,
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 49,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "onClick",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#onClick",
+    "access": null,
+    "description": "Handles click events on the associated link\nPrevents default action for non-combination click events without a target",
+    "lineNumber": 37,
+    "params": [
+      {
+        "name": "event",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 50,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_updateHref",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#_updateHref",
+    "access": null,
+    "description": null,
+    "lineNumber": 43,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "linkHref",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#linkHref",
+    "access": null,
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_comboClick",
+    "memberof": "es6/link-to.js~LinkTo",
+    "longname": "es6/link-to.js~LinkTo#_comboClick",
+    "access": null,
+    "description": "Determines whether the click event happened with a combination of other keys",
+    "lineNumber": 49,
+    "params": [
+      {
+        "name": "event",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 53,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "LINK_TO_PROVIDERS",
+    "memberof": "es6/link-to.js",
+    "longname": "es6/link-to.js~LINK_TO_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/link-to.js",
+    "importStyle": "{LINK_TO_PROVIDERS}",
+    "description": null,
+    "lineNumber": 82,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/location.js",
+    "memberof": null,
+    "longname": "es6/location.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__decorate",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~__decorate",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__metadata",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~__metadata",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "Location",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~Location",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": "{Location}",
+    "description": "`Location` is a service that applications can use to interact with a browser's URL.\nDepending on which {@link LocationStrategy} is used, `Location` will either persist\nto the URL's path or the URL's hash segment.\n\nNote: it's better to use {@link Router#navigate} service to trigger route changes. Use\n`Location` only if you need to interact with or create normalized URLs outside of\nrouting.\n\n`Location` is responsible for normalizing the URL against the application's base href.\nA normalized URL is absolute from the URL host, includes the application's base href, and has no\ntrailing slash:\n- `/my/app/user/123` is normalized\n- `my/app/user/123` **is not** normalized\n- `/my/app/user/123/` **is not** normalized\n\n### Example\n\n```\nimport {Component} from 'angular2/core';\nimport {\n  ROUTER_DIRECTIVES,\n  ROUTER_PROVIDERS,\n  RouteConfig,\n  Location\n} from 'angular2/router';\n\n@Component({directives: [ROUTER_DIRECTIVES]})\n@RouteConfig([\n {...},\n])\nclass AppCmp {\n  constructor(location: Location) {\n    location.go('/foo');\n  }\n}\n\nbootstrap(AppCmp, [ROUTER_PROVIDERS]);\n```",
+    "lineNumber": 56,
+    "interface": false,
+    "extends": [
+      "rxjs/subject/ReplaySubject~ReplaySubject"
+    ]
+  },
+  {
+    "__docId__": 58,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 57,
+    "undocument": true,
+    "params": [
+      {
+        "name": "platformStrategy",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "platformStrategy",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#platformStrategy",
+    "access": null,
+    "description": null,
+    "lineNumber": 59,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_baseHref",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#_baseHref",
+    "access": null,
+    "description": null,
+    "lineNumber": 62,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_update",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#_update",
+    "access": null,
+    "description": null,
+    "lineNumber": 65,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "path",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#path",
+    "access": null,
+    "description": "Returns the normalized URL path.",
+    "lineNumber": 71,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "normalize",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#normalize",
+    "access": null,
+    "description": "Given a string representing a URL, returns the normalized URL path without leading or\ntrailing slashes",
+    "lineNumber": 78,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "prepareExternalUrl",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#prepareExternalUrl",
+    "access": null,
+    "description": "Given a string representing a URL, returns the platform-specific external URL path.\nIf the given URL doesn't begin with a leading slash (`'/'`), this method adds one\nbefore normalizing. This method will also add a hash if `HashLocationStrategy` is\nused, or the `APP_BASE_HREF` if the `PathLocationStrategy` is in use.",
+    "lineNumber": 87,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "query",
+        "optional": true,
+        "types": [
+          "string"
+        ],
+        "defaultRaw": "",
+        "defaultValue": ""
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 65,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "go",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#go",
+    "access": null,
+    "description": "Changes the browsers URL to the normalized version of the given URL, and pushes a\nnew item onto the platform's history.",
+    "lineNumber": 97,
+    "params": [
+      {
+        "name": "path",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "query",
+        "optional": true,
+        "types": [
+          "string"
+        ],
+        "defaultRaw": "",
+        "defaultValue": ""
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 66,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "replaceState",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#replaceState",
+    "access": null,
+    "description": "Changes the browsers URL to the normalized version of the given URL, and replaces\nthe top item on the platform's history stack.",
+    "lineNumber": 105,
+    "params": [
+      {
+        "name": "path",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "query",
+        "optional": true,
+        "types": [
+          "string"
+        ],
+        "defaultRaw": "",
+        "defaultValue": ""
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "search",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#search",
+    "access": null,
+    "description": "Changes the browsers query parameters. Replaces teh top item on the platform's\nhistory stack",
+    "lineNumber": 113,
+    "params": [
+      {
+        "name": "query",
+        "optional": true,
+        "types": [
+          "string"
+        ],
+        "defaultRaw": "",
+        "defaultValue": ""
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "forward",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#forward",
+    "access": null,
+    "description": "Navigates forward in the platform's history.",
+    "lineNumber": 120,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "back",
+    "memberof": "es6/location.js~Location",
+    "longname": "es6/location.js~Location#back",
+    "access": null,
+    "description": "Navigates back in the platform's history.",
+    "lineNumber": 126,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "_stripBaseHref",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~_stripBaseHref",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 134,
+    "undocument": true,
+    "params": [
+      {
+        "name": "baseHref",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "stripIndexHtml",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~stripIndexHtml",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 140,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "stripTrailingSlash",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~stripTrailingSlash",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 147,
+    "undocument": true,
+    "params": [
+      {
+        "name": "url",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "normalizeQuery",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~normalizeQuery",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 153,
+    "undocument": true,
+    "params": [
+      {
+        "name": "query",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "normalizeQueryParams",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~normalizeQueryParams",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 156,
+    "undocument": true,
+    "params": [
+      {
+        "name": "params",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 75,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "LOCATION_PROVIDERS",
+    "memberof": "es6/location.js",
+    "longname": "es6/location.js~LOCATION_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/location.js",
+    "importStyle": "{LOCATION_PROVIDERS}",
+    "description": null,
+    "lineNumber": 159,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/match-pattern.js",
+    "memberof": null,
+    "longname": "es6/match-pattern.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 6,
+    "content": ""
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "escapeRegExp",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~escapeRegExp",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": null,
+    "description": "This is a straight up copy of react-router's PatternUtils. It may be worth\ninvestigating if the react-router team is open to splitting this out\ninto a separate package",
+    "lineNumber": 6,
+    "params": [
+      {
+        "name": "input",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "escapeSource",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~escapeSource",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "input",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "_compilePattern",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~_compilePattern",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "pattern",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "CompiledPatternsCache",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~CompiledPatternsCache",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 56,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "compilePattern",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~compilePattern",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": "{compilePattern}",
+    "description": null,
+    "lineNumber": 57,
+    "undocument": true,
+    "params": [
+      {
+        "name": "pattern",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 82,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "matchPattern",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~matchPattern",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": "{matchPattern}",
+    "description": "Attempts to match a pattern on the given pathname. Patterns may use\nthe following special characters:\n\n- :paramName     Matches a URL segment up to the next /, ?, or #. The\n                 captured string is considered a \"param\"\n- ()             Wraps a segment of the URL that is optional\n- *              Consumes (non-greedy) all characters up to the next\n                 character in the pattern, or to the end of the URL if\n                 there is none\n- **             Consumes (greedy) all characters up to the next character\n                 in the pattern, or to the end of the URL if there is none\n\nThe return value is an object with the following properties:\n\n- remainingPathname\n- paramNames\n- paramValues",
+    "lineNumber": 82,
+    "params": [
+      {
+        "name": "pattern",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "pathname",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getParamNames",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~getParamNames",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": "{getParamNames}",
+    "description": null,
+    "lineNumber": 124,
+    "undocument": true,
+    "params": [
+      {
+        "name": "pattern",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getParams",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~getParams",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": "{getParams}",
+    "description": null,
+    "lineNumber": 127,
+    "undocument": true,
+    "params": [
+      {
+        "name": "pattern",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "pathname",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "formatPattern",
+    "memberof": "es6/match-pattern.js",
+    "longname": "es6/match-pattern.js~formatPattern",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-pattern.js",
+    "importStyle": "{formatPattern}",
+    "description": "Returns a version of the given pattern with params interpolated. Throws\nif there is a dynamic segment of the pattern for which there is no param.",
+    "lineNumber": 141,
+    "params": [
+      {
+        "name": "pattern",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "params",
+        "optional": true,
+        "types": [
+          "{}"
+        ],
+        "defaultRaw": {},
+        "defaultValue": "{}"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/match-route.js",
+    "memberof": null,
+    "longname": "es6/match-route.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 87,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__decorate",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~__decorate",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__metadata",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~__metadata",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__param",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~__param",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "TRAVERSAL_MIDDLEWARE",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~TRAVERSAL_MIDDLEWARE",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "angular2/core~OpaqueToken"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "useTraversalMiddleware",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~useTraversalMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": "{useTraversalMiddleware}",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "RouteTraverser",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~RouteTraverser",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": "{RouteTraverser}",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 93,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "params": [
+      {
+        "name": "_loader",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_middleware",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_routes",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 94,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_loader",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#_loader",
+    "access": null,
+    "description": null,
+    "lineNumber": 33,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_middleware",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#_middleware",
+    "access": null,
+    "description": null,
+    "lineNumber": 34,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_routes",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#_routes",
+    "access": null,
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "find",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#find",
+    "access": null,
+    "description": "Asynchronously matches the given location to a set of routes. The state\nobject will have the following properties:\n\n- routes       An array of routes that matched, in hierarchical order\n- params       An object of URL parameters",
+    "lineNumber": 44,
+    "params": [
+      {
+        "name": "pathname",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 98,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_matchRoutes",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#_matchRoutes",
+    "access": null,
+    "description": null,
+    "lineNumber": 47,
+    "undocument": true,
+    "params": [
+      {
+        "name": "routes",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "pathname",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "remainingPathname",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "pathname",
+        "defaultValue": "pathname"
+      },
+      {
+        "name": "paramNames",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      },
+      {
+        "name": "paramValues",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 99,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_matchRouteDeep",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#_matchRouteDeep",
+    "access": null,
+    "description": null,
+    "lineNumber": 57,
+    "undocument": true,
+    "params": [
+      {
+        "name": "route",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "pathname",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "remainingPathname",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "paramNames",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "paramValues",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 100,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_loadChildRoutes",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#_loadChildRoutes",
+    "access": null,
+    "description": null,
+    "lineNumber": 109,
+    "undocument": true,
+    "params": [
+      {
+        "name": "route",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 101,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_loadIndexRoute",
+    "memberof": "es6/match-route.js~RouteTraverser",
+    "longname": "es6/match-route.js~RouteTraverser#_loadIndexRoute",
+    "access": null,
+    "description": null,
+    "lineNumber": 112,
+    "undocument": true,
+    "params": [
+      {
+        "name": "route",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "MATCH_ROUTE_PROVIDERS",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~MATCH_ROUTE_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": "{MATCH_ROUTE_PROVIDERS}",
+    "description": null,
+    "lineNumber": 122,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "assignParams",
+    "memberof": "es6/match-route.js",
+    "longname": "es6/match-route.js~assignParams",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/match-route.js",
+    "importStyle": "{assignParams}",
+    "description": null,
+    "lineNumber": 126,
+    "undocument": true,
+    "params": [
+      {
+        "name": "paramNames",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "paramValues",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 104,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/middleware.js",
+    "memberof": null,
+    "longname": "es6/middleware.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 105,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "identity",
+    "memberof": "es6/middleware.js",
+    "longname": "es6/middleware.js~identity",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/middleware.js",
+    "importStyle": "{identity}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "createMiddleware",
+    "memberof": "es6/middleware.js",
+    "longname": "es6/middleware.js~createMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/middleware.js",
+    "importStyle": "{createMiddleware}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "useFactory",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "deps",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 107,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "provideMiddlewareForToken",
+    "memberof": "es6/middleware.js",
+    "longname": "es6/middleware.js~provideMiddlewareForToken",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/middleware.js",
+    "importStyle": "{provideMiddlewareForToken}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "token",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 108,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/params.js",
+    "memberof": null,
+    "longname": "es6/params.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 109,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "RouteParams",
+    "memberof": "es6/params.js",
+    "longname": "es6/params.js~RouteParams",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/params.js",
+    "importStyle": "{RouteParams}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "rxjs/Observable~Observable"
+    ]
+  },
+  {
+    "__docId__": 110,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "QueryParams",
+    "memberof": "es6/params.js",
+    "longname": "es6/params.js~QueryParams",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/params.js",
+    "importStyle": "{QueryParams}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "rxjs/Observable~Observable"
+    ]
+  },
+  {
+    "__docId__": 111,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "createRouteParams",
+    "memberof": "es6/params.js",
+    "longname": "es6/params.js~createRouteParams",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/params.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "set$",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 112,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "createQueryParams",
+    "memberof": "es6/params.js",
+    "longname": "es6/params.js~createQueryParams",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/params.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "set$",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 113,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "PARAMS_PROVIDERS",
+    "memberof": "es6/params.js",
+    "longname": "es6/params.js~PARAMS_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/params.js",
+    "importStyle": "{PARAMS_PROVIDERS}",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 114,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/redirect.js",
+    "memberof": null,
+    "longname": "es6/redirect.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 115,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "redirectMiddleware",
+    "memberof": "es6/redirect.js",
+    "longname": "es6/redirect.js~redirectMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/redirect.js",
+    "importStyle": "{redirectMiddleware}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "handleRedirect",
+    "memberof": "es6/redirect.js",
+    "longname": "es6/redirect.js~handleRedirect",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/redirect.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "params": [
+      {
+        "name": "location",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "route",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 117,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getRoutePattern",
+    "memberof": "es6/redirect.js",
+    "longname": "es6/redirect.js~getRoutePattern",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/redirect.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "params": [
+      {
+        "name": "routes",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "routeIndex",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 118,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "REDIRECT_PROVIDERS",
+    "memberof": "es6/redirect.js",
+    "longname": "es6/redirect.js~REDIRECT_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/redirect.js",
+    "importStyle": "{REDIRECT_PROVIDERS}",
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/resource-loader.js",
+    "memberof": null,
+    "longname": "es6/resource-loader.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 120,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__decorate",
+    "memberof": "es6/resource-loader.js",
+    "longname": "es6/resource-loader.js~__decorate",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/resource-loader.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__metadata",
+    "memberof": "es6/resource-loader.js",
+    "longname": "es6/resource-loader.js~__metadata",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/resource-loader.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "ResourceLoader",
+    "memberof": "es6/resource-loader.js",
+    "longname": "es6/resource-loader.js~ResourceLoader",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/resource-loader.js",
+    "importStyle": "{ResourceLoader}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 123,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "load",
+    "memberof": "es6/resource-loader.js~ResourceLoader",
+    "longname": "es6/resource-loader.js~ResourceLoader#load",
+    "access": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "sync",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "async",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "defaultValue",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 124,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "RESOURCE_LOADER_PROVIDERS",
+    "memberof": "es6/resource-loader.js",
+    "longname": "es6/resource-loader.js~RESOURCE_LOADER_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/resource-loader.js",
+    "importStyle": "{RESOURCE_LOADER_PROVIDERS}",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/route-set.js",
+    "memberof": null,
+    "longname": "es6/route-set.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 126,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "LOCATION_MIDDLEWARE",
+    "memberof": "es6/route-set.js",
+    "longname": "es6/route-set.js~LOCATION_MIDDLEWARE",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/route-set.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "angular2/core~OpaqueToken"
+      ]
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ROUTE_SET_MIDDLEWARE",
+    "memberof": "es6/route-set.js",
+    "longname": "es6/route-set.js~ROUTE_SET_MIDDLEWARE",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/route-set.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "angular2/core~OpaqueToken"
+      ]
+    }
+  },
+  {
+    "__docId__": 128,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "useLocationMiddleware",
+    "memberof": "es6/route-set.js",
+    "longname": "es6/route-set.js~useLocationMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route-set.js",
+    "importStyle": "{useLocationMiddleware}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "useRouteSetMiddleware",
+    "memberof": "es6/route-set.js",
+    "longname": "es6/route-set.js~useRouteSetMiddleware",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route-set.js",
+    "importStyle": "{useRouteSetMiddleware}",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "RouteSet",
+    "memberof": "es6/route-set.js",
+    "longname": "es6/route-set.js~RouteSet",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route-set.js",
+    "importStyle": "{RouteSet}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "rxjs/Observable~Observable"
+    ]
+  },
+  {
+    "__docId__": 131,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "createRouteSet",
+    "memberof": "es6/route-set.js",
+    "longname": "es6/route-set.js~createRouteSet",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/route-set.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [
+      {
+        "name": "location$",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "traverser",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "locationMiddleware",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "routeSetMiddleware",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 132,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ROUTE_SET_PROVIDERS",
+    "memberof": "es6/route-set.js",
+    "longname": "es6/route-set.js~ROUTE_SET_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route-set.js",
+    "importStyle": "{ROUTE_SET_PROVIDERS}",
+    "description": null,
+    "lineNumber": 43,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 133,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/route-view.js",
+    "memberof": null,
+    "longname": "es6/route-view.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 134,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__decorate",
+    "memberof": "es6/route-view.js",
+    "longname": "es6/route-view.js~__decorate",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/route-view.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__metadata",
+    "memberof": "es6/route-view.js",
+    "longname": "es6/route-view.js~__metadata",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/route-view.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 136,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "__param",
+    "memberof": "es6/route-view.js",
+    "longname": "es6/route-view.js~__param",
+    "access": null,
+    "export": false,
+    "importPath": "@ngrx/router/es6/route-view.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "class",
+    "static": true,
+    "variation": null,
+    "name": "RouteView",
+    "memberof": "es6/route-view.js",
+    "longname": "es6/route-view.js~RouteView",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route-view.js",
+    "importStyle": "{RouteView}",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 138,
+    "kind": "constructor",
+    "static": false,
+    "variation": null,
+    "name": "constructor",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#constructor",
+    "access": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "_name",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_routeSet$",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_injector",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_renderer",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_dcl",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "_ref",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "generator": false
+  },
+  {
+    "__docId__": 139,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_name",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_name",
+    "access": null,
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 140,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_routeSet$",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_routeSet$",
+    "access": null,
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_injector",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_injector",
+    "access": null,
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 142,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_renderer",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_renderer",
+    "access": null,
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 143,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_dcl",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_dcl",
+    "access": null,
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 144,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_ref",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_ref",
+    "access": null,
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 145,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_routeSetProvider",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_routeSetProvider",
+    "access": null,
+    "description": null,
+    "lineNumber": 30,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 146,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "ngOnInit",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#ngOnInit",
+    "access": null,
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 147,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_sub",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_sub",
+    "access": null,
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 148,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "ngOnDestroy",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#ngOnDestroy",
+    "access": null,
+    "description": null,
+    "lineNumber": 57,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 149,
+    "kind": "method",
+    "static": false,
+    "variation": null,
+    "name": "_cleanPreviousRef",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_cleanPreviousRef",
+    "access": null,
+    "description": null,
+    "lineNumber": 61,
+    "undocument": true,
+    "params": [],
+    "generator": false
+  },
+  {
+    "__docId__": 150,
+    "kind": "member",
+    "static": false,
+    "variation": null,
+    "name": "_prev",
+    "memberof": "es6/route-view.js~RouteView",
+    "longname": "es6/route-view.js~RouteView#_prev",
+    "access": null,
+    "description": null,
+    "lineNumber": 64,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 151,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ROUTE_VIEW_PROVIDERS",
+    "memberof": "es6/route-view.js",
+    "longname": "es6/route-view.js~ROUTE_VIEW_PROVIDERS",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route-view.js",
+    "importStyle": "{ROUTE_VIEW_PROVIDERS}",
+    "description": null,
+    "lineNumber": 77,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 152,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/route.js",
+    "memberof": null,
+    "longname": "es6/route.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 153,
+    "kind": "variable",
+    "static": true,
+    "variation": null,
+    "name": "ROUTES",
+    "memberof": "es6/route.js",
+    "longname": "es6/route.js~ROUTES",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route.js",
+    "importStyle": "{ROUTES}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "angular2/core~OpaqueToken"
+      ]
+    }
+  },
+  {
+    "__docId__": 154,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "getNamedComponents",
+    "memberof": "es6/route.js",
+    "longname": "es6/route.js~getNamedComponents",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/route.js",
+    "importStyle": "{getNamedComponents}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "route",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 155,
+    "kind": "file",
+    "static": true,
+    "variation": null,
+    "name": "es6/util.js",
+    "memberof": null,
+    "longname": "es6/util.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1,
+    "content": ""
+  },
+  {
+    "__docId__": 156,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "createFactoryProvider",
+    "memberof": "es6/util.js",
+    "longname": "es6/util.js~createFactoryProvider",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/util.js",
+    "importStyle": "{createFactoryProvider}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [
+      {
+        "name": "name",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "token",
+        "optional": true,
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "multi",
+        "optional": true,
+        "types": [
+          "boolean"
+        ],
+        "defaultRaw": false,
+        "defaultValue": "false"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 157,
+    "kind": "function",
+    "static": true,
+    "variation": null,
+    "name": "compose",
+    "memberof": "es6/util.js",
+    "longname": "es6/util.js~compose",
+    "access": null,
+    "export": true,
+    "importPath": "@ngrx/router/es6/util.js",
+    "importStyle": "{compose}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "funcs",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "generator": false
+  },
+  {
+    "__docId__": 159,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Infinity",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 160,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~NaN",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 161,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~undefined",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 162,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~null",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 163,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 164,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~object",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 165,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 166,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~function",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 167,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 168,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~boolean",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 169,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Symbol",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 170,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Error",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 171,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~EvalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 172,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~InternalError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 173,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RangeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 174,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ReferenceError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 175,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~SyntaxError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 176,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~TypeError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 177,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~URIError",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 178,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 179,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~number",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 180,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Date",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 181,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~String",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 182,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~string",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 183,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~RegExp",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 184,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 185,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 186,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 187,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint8ClampedArray",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 188,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 189,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint16Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 190,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Int32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 191,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Uint32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 192,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float32Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 193,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Float64Array",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 194,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Map",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 195,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Set",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 196,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakMap",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 197,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~WeakSet",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 198,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~ArrayBuffer",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 199,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~DataView",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 200,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~JSON",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 201,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Promise",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 202,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Generator",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 203,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~GeneratorFunction",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 204,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Reflect",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 205,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "BuiltinExternal/ECMAScriptExternal.js",
+    "longname": "BuiltinExternal/ECMAScriptExternal.js~Proxy",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 207,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "CanvasRenderingContext2D",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~CanvasRenderingContext2D",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 208,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "DocumentFragment",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~DocumentFragment",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 209,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Element",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Element",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Element",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 210,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Event",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Event",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Event",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 211,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "Node",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Node",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~Node",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 212,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "NodeList",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~NodeList",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 213,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "XMLHttpRequest",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~XMLHttpRequest",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 214,
+    "kind": "external",
+    "static": true,
+    "variation": null,
+    "name": "AudioContext",
+    "externalLink": "https://developer.mozilla.org/en/docs/Web/API/AudioContext",
+    "memberof": "BuiltinExternal/WebAPIExternal.js",
+    "longname": "BuiltinExternal/WebAPIExternal.js~AudioContext",
+    "access": null,
+    "description": "",
+    "builtinExternal": true
+  }
+]

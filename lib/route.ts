@@ -1,0 +1,42 @@
+/**
+ * Route and IndexRoute interfaces are similar to react-router's interfaces.
+ */
+import { Observable } from 'rxjs/Observable';
+import { Provider, Type, OpaqueToken } from 'angular2/core';
+
+import { Async } from './resource-loader';
+
+export type Routes = Array<Route>;
+
+export interface SimpleRoute {
+  component?: Type;
+  loadComponent?: Async<Type>;
+}
+
+export interface IndexRoute extends SimpleRoute {
+  components?: { [name: string]: Type };
+  loadComponents?: { [name: string]: Async<Type> };
+  redirectTo?: string;
+}
+
+export interface Route extends IndexRoute {
+  path?: string;
+  guards?: Provider[];
+  indexRoute?: IndexRoute;
+  loadIndexRoute?: Async<IndexRoute>;
+  children?: Routes;
+  loadChildren?: Async<Routes>;
+}
+
+export const ROUTES = new OpaqueToken('@ngrx/router Init Routes');
+
+export function getNamedComponents(route: IndexRoute, name?: string): SimpleRoute {
+  if (!name) {
+    return { component: route.component, loadComponent: route.loadComponent };
+  }
+
+  const components = route.components || {};
+  const loadComponents = route.loadComponents || {};
+
+  return { component: components[name], loadComponent: loadComponents[name] };
+}
